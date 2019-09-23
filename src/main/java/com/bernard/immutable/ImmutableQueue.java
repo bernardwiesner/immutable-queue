@@ -1,6 +1,6 @@
 package com.bernard.immutable;
 
-public class ImmutableQueue<T> implements Queue<T>{
+public final class ImmutableQueue<T> implements Queue<T>{
 
     private final T value;
     private final Queue<T> parent;
